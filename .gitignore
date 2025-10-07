@@ -1,0 +1,116 @@
+# Dataset and personal data
+dataset/
+FaceRecognition/dataset/
+
+# Models and trained data (large files)
+models/*.pkl
+models/*.faiss
+models/*.h5
+models/*.pth
+models/*.onnx
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+captured_*.jpg
+captured_*.png
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Docker
+.dockerignore
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+.readthedocs.yml
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Face detection models (if downloaded)
+*.caffemodel
+*.prototxt
+*.weights
+
+# Backup files
+*.bak
+*.backup
+*~
