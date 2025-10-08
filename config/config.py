@@ -6,6 +6,7 @@ from typing import Tuple
 class ModelConfig:
     detection_size: Tuple[int, int] = (160, 160)
     threshold: float = 0.6
+    embedding_dim: int = 512  # InsightFace embedding dimension
 
 @dataclass
 class CameraConfig:
