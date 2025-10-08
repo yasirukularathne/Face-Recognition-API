@@ -1,4 +1,9 @@
-"""Configuration"""
+"""
+Configuration Module
+
+Copyright (c) 2025 Tekly IT Solutions. All rights reserved.
+PROPRIETARY SOFTWARE - Commercial use requires license agreement.
+"""
 from dataclasses import dataclass
 from typing import Tuple
 
